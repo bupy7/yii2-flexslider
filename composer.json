@@ -21,5 +21,17 @@
         "psr-4": {
             "bupy7\\flexslider\\": ""
         }
+    },
+    "extra": {
+        "asset-repositories": {
+            "bower-asset/FlexSlider": {
+                "type": "bower-vsc",
+                "url": "https://github.com/woothemes/FlexSlider.git"
+            }
+        },
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
     }
 }
