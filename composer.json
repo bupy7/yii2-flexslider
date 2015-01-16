@@ -15,8 +15,10 @@
     "minimum-stability": "dev",
     "extra": {
         "asset-repositories": {
-            "type": "bower-vsc",
-            "url": "https://github.com/woothemes/FlexSlider.git"
+            "bower-asset/FlexSlider": {
+                "type": "bower-github",
+                "url": "https://github.com/woothemes/FlexSlider.git"
+            }
         }
     },
     "require": {
