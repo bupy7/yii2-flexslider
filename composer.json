@@ -15,7 +15,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
-        "bower-asset/woothemes/FlexSlider": "dev-master"
+        "bower-asset/FlexSlider": ">=2.2.*"
     },
     "autoload": {
         "psr-4": {
