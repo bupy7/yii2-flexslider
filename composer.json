@@ -13,9 +13,6 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {
-        "php": ">=5.4.0"
-    },
     "extra": {
         "asset-repositories": {
             "bower-asset/FlexSlider": {
@@ -23,6 +20,10 @@
                 "url": "https://github.com/woothemes/FlexSlider.git"
             }
         }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "bower-asset/FlexSlider": "dev-master"
     },
     "autoload": {
         "psr-4": {
