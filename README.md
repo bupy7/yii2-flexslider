@@ -51,7 +51,7 @@ echo FlexSlider::widget([
 |   $tagSlides   | Slides tag. By default 'ul'.                                                                 |
 |    $tagItem    | Items tag to slides. By default 'li'.                                                        |
 |    $options    | FlexSlider widget options.                                                                   |
-| $slidesOptions | Options of slides tag.                                                                       |
+| $slidesOptions | Options of slides tag.                                                                        |
 
 ##License
 
