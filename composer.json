@@ -23,16 +23,16 @@
         }
     },
     "extra": {
-    "asset-repositories": [
-        {
-            "type": "bower-vsc",
-            "url": "https://github.com/woothemes/FlexSlider.git",
-            "name": "bower-asset/FlexSlider"
+        "asset-repositories": [
+            {
+                "type": "bower-vsc",
+                "url": "https://github.com/woothemes/FlexSlider.git",
+                "name": "bower-asset/FlexSlider"
+            }
+        ],
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
         }
-    ],
-    "asset-installer-paths": {
-        "npm-asset-library": "vendor/npm",
-        "bower-asset-library": "vendor/bower"
     }
-}
 }
