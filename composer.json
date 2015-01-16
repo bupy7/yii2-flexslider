@@ -15,15 +15,17 @@
     "minimum-stability": "dev",
     "extra": {
         "asset-repositories": {
-            "bower-asset/flexslider": {
+            "bower-asset/FlexSlider": {
                 "type": "bower-vsc",
                 "url": "https://github.com/woothemes/FlexSlider.git"
             }
         }
     },
     "require": {
-        "php": ">=5.4.0",
-        "bower-asset/flexslider": "@stable"
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "bower-asset/FlexSlider": "@dev-master"
     },
     "autoload": {
         "psr-4": {
