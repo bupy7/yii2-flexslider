@@ -15,7 +15,7 @@
     "minimum-stability": "dev",
     "extra": {
         "asset-repositories": {
-            "bower-asset/flex-slider": {
+            "bower-asset/FlexSlider": {
                 "type": "bower-git",
                 "url": "https://github.com/woothemes/FlexSlider.git"
             }
@@ -23,7 +23,7 @@
     },
     "require": {
         "php": ">=5.4.0",
-        "bower-asset/flex-slider": "dev-master"
+        "bower-asset/FlexSlider"
     },
     "autoload": {
         "psr-4": {
