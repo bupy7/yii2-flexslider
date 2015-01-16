@@ -23,12 +23,12 @@
         }
     },
     "extra": {
-        "asset-repositories": {
-            "bower-asset/FlexSlider": {
+        "asset-repositories": [
+            {
                 "type": "bower-vsc",
                 "url": "https://github.com/woothemes/FlexSlider.git"
             }
-        },
+        ],
         "asset-installer-paths": {
             "npm-asset-library": "vendor/npm",
             "bower-asset-library": "vendor/bower"
