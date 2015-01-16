@@ -14,11 +14,26 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=5.4.0",
+        "woothemes/FlexSlider": "dev-master"
     },
     "autoload": {
         "psr-4": {
             "bupy7\\flexslider\\": ""
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "version": "master",
+                "name": "woothemes/FlexSlider",
+                "source": {
+                    "url": "https://github.com/woothemes/FlexSlider.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ]
 }
