@@ -20,13 +20,5 @@
         "psr-4": {
             "bupy7\\flexslider\\": ""
         }
-    },
-    "scripts": {
-        "post-install-cmd": [
-            "bower install https://github.com/woothemes/FlexSlider.git"
-        ],
-        "post-update-cmd": [
-            "bower install https://github.com/woothemes/FlexSlider.git"
-        ]
     }
 }
