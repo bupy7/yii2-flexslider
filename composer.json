@@ -25,7 +25,7 @@
         "php": ">=5.4.0"
     },
     "require-dev": {
-        "bower-asset/FlexSlider": "@dev-master"
+        "bower-asset/FlexSlider": "dev-master"
     },
     "autoload": {
         "psr-4": {
