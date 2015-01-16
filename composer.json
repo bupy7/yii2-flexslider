@@ -14,24 +14,11 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.4.0",
-        "bower-asset/FlexSlider": "*"
+        "php": ">=5.4.0"
     },
     "autoload": {
         "psr-4": {
             "bupy7\\flexslider\\": ""
-        }
-    },
-    "extra": {
-        "asset-repositories": [
-            {
-                "type": "bower-vsc",
-                "url": "https://github.com/woothemes/FlexSlider.git"
-            }
-        ],
-        "asset-installer-paths": {
-            "npm-asset-library": "vendor/npm",
-            "bower-asset-library": "vendor/bower"
         }
     }
 }
