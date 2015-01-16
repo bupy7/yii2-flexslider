@@ -23,7 +23,7 @@
     },
     "require": {
         "php": ">=5.4.0",
-        "bower-asset/FlexSlider": "@2.2.*"
+        "bower-asset/FlexSlider": "version@2.2.*"
     },
     "autoload": {
         "psr-4": {
