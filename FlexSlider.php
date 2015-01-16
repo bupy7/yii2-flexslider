@@ -70,6 +70,8 @@ class FlexSlider extends Widget
         
         FlexSliderAsset::register($this->view);
 
+        $this->options = array_merge(['id' => $this->id], $this->options);
+
         $this->slidesOptions = array_merge([
             'class' => 'slides',
         ], $this->slidesOptions);
