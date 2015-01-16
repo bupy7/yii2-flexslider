@@ -41,3 +41,18 @@ echo FlexSlider::widget([
 
 ...
 ```
+
+##Options of widget
+
+|  **property**  |                                        **Description**                                       |
+|:--------------:|:--------------------------------------------------------------------------------------------:|
+|     $items     | Items of FlexSlider                                                                          |
+| $pluginOptions | FlexSlider plugin options https://github.com/woothemes/FlexSlider/wiki/FlexSlider-Properties |
+|   $tagSlides   | Slides tag. By default 'ul'.                                                                 |
+|    $tagItem    | Items tag to slides. By default 'li'.                                                        |
+|    $options    | FlexSlider widget options.                                                                   |
+| $slidesOptions | Options of slides tag.                                                                       |
+
+##License
+
+yii2-flexslider is released under the BSD 3-Clause License.
