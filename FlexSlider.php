@@ -95,11 +95,9 @@ class FlexSlider extends Widget
         ], $this->pluginOptions));
         
         $js = <<<JS
-(function($){
-    $('#{$this->id}').flexslider($options);
-})(jQuery);               
+$('#{$this->id}').flexslider($options);             
 JS;
-        $this->view->registerJs($js, View::POS_END);
+        $this->view->registerJs($js, View::POS_READY);
     }
     
     public function run()
