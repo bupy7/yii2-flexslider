@@ -109,7 +109,7 @@ JS;
                 echo Html::tag($this->tagItem, $item);
             }
             if (is_array($item) && !empty($item)) {
-                echo Html::tag($this->tagItem, $item['content'], $item['options']);
+                echo Html::tag($this->tagItem, $item['content'], isset($item['options']) ? $item['options'] : []);
             }
         }
         echo Html::endTag($this->tagSlides);
